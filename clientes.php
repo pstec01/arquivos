@@ -87,6 +87,10 @@ $dados = mysqli_fetch_array($limite);
     <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/theme.default.min.css">
+<script src="js/tablesorter.min.js"></script>
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -348,7 +352,7 @@ $dados = mysqli_fetch_array($limite);
 	            </table>
                     <div class="table-responsive">
                       <form id="alterar" action="alterar.php" method="post">
-                      <table class="table">
+                      <table class="table" >
                         <thead>
                           <tr>
                           <th style="color:white;" data-sortable="true"> id </th>
